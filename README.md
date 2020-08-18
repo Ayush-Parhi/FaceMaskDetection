@@ -5,11 +5,11 @@ The goal of this project is to ensure that people wear masks whenver they enter 
 ![alt text](https://github.com/Ayush-Parhi/FaceMaskDetection/blob/master/Output_screenshot.png?raw=true)
 
 # Details about the structure of the codebase
-* The main python scripts that is used to detect the mask is in the "mask_detector" folder. This folder contains 2 python scripts namely, "mask_detect_img.py" and "mask_detect_vid.py".
-The mask_detect_img.py is used to detect masks in an image file and the mask_detect_vid.py is used to detect masks in a video stream.
-* The "notebooks" folder contains a jupyter notebook that is used to train the model for mask detection.
-* Face Detection i.e enclosing the face of a person inside a bounding box is done by using a pre-trained face detection model which is stored in "face_detection" folder. 
-* "Images" folder contains 2 test images that can be used to test the "mask_detect_img.py" script.
+* The main python scripts that is used to detect the mask is in the ```mask_detector``` folder. This folder contains 2 python scripts namely, ```mask_detect_img.py``` and ```mask_detect_vid.py```.
+The ```mask_detect_img.py``` is used to detect masks in an image file and the ```mask_detect_vid.py``` is used to detect masks in a video stream.
+* The ```notebooks``` folder contains a jupyter notebook that is used to train the model for mask detection.
+* Face Detection i.e enclosing the face of a person inside a bounding box is done by using a pre-trained face detection model which is stored in ```face_detection``` folder. 
+* ```Images``` folder contains 2 test images that can be used to test the ```mask_detect_img.py``` script.
 
 # Prerequisites
 * Python 3 or above
